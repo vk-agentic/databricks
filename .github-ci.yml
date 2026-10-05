@@ -1,2 +1,7 @@
-test:
-  script:echo "hello world!"
+build_car:
+  script:
+    - echo "building a car"
+    - mkdir build
+    - cd build
+    - touch car.txt
+    - echo "chasis" > car.txt
